@@ -48,7 +48,7 @@ func ShowTrainingInfo(action int, trainingType string, duration, weight, height 
 	// ваш код здесь
 	switch {
 	case trainingType == "Бег":
-		distance := 10.0 // вызовите здесь необходимую функцию
+		distance := 11.0 // вызовите здесь необходимую функцию
 		speed := 2.0     // вызовите здесь необходимую функцию
 		calories := 3.0  // вызовите здесь необходимую функцию
 		return fmt.Sprintf("Тип тренировки: %s\nДлительность: %.2f ч.\nДистанция: %.2f км.\nСкорость: %.2f км/ч\nСожгли калорий: %.2f\n", trainingType, duration, distance, speed, calories)
