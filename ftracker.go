@@ -48,6 +48,7 @@ func ShowTrainingInfo(action int, trainingType string, duration, weight, height 
 	// ваш код здесь
 	switch {
 	case trainingType == "Бег":
+		// TODO: fix formulae
 		distance := 11.0 // вызовите здесь необходимую функцию
 		speed := 21.0    // вызовите здесь необходимую функцию
 		calories := 3.0  // вызовите здесь необходимую функцию
